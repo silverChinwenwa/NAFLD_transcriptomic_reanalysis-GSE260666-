@@ -1,0 +1,9 @@
+Analysis,Finding,Statistic,Interpretation
+Differential Expression,64 significant DEGs: 31 upregulated and 33 downregulated,64 DEGs,A relatively small set of individual genes showed significant differential expression.
+GO Over-Representation Analysis,No GO Biological Process terms significant at FDR < 0.05,0 significant terms,The 64 DEGs were not sufficiently concentrated into GO categories for significant ORA.
+KEGG Over-Representation Analysis,No KEGG pathways significant at FDR < 0.05,0 significant pathways,The DEG list did not produce FDR-significant KEGG enrichment.
+GO GSEA,494 GO Biological Process terms significant at FDR < 0.05,494 significant terms,Using the complete ranked transcriptome revealed coordinated biological changes that ORA did not detect.
+Strongest positive GSEA,Cytoplasmic Translation,NES = 2.80,Strong enrichment of genes involved in protein synthesis and translation.
+Second major GSEA theme,Ribosome Biogenesis,NES = 2.63,Enrichment of genes involved in ribosome production and maturation.
+Third major GSEA theme,Protein Insertion Into ER Membrane,NES = 2.45,Enrichment of genes involved in ER membrane protein insertion and processing.
+Negative GSEA,No negative GO terms significant at FDR < 0.05,"Strongest: Epoxygenase P450 Pathway, NES = -2.03",Control-side metabolic trends were observed but did not survive multiple-testing correction.
